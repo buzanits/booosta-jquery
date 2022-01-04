@@ -1,0 +1,24 @@
+{
+    "name": "booosta/jquery",
+    "description": "Jquery module for Booosta PHP Framework",
+    "license": "LGPL-3.0-only",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "booosta\\jquery\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Buzanits",
+            "email": "peter@icb.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "booosta/base": "dev-master",
+        "components/jquery": "^3.6",
+        "components/jqueryui": "^1.12"
+    }
+}
